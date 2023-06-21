@@ -31,3 +31,44 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+.app {
+  display: flex;
+}
+
+.scrollable {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 8px;
+  }
+}
+
+body {
+  font-size: 20px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.sended {
+  background: $primary-color;
+  color: white;
+  margin-left: auto;
+}
+
+.received {
+  background: $secondary-color;
+  color: #333;
+
+  time {
+    color: #666 !important;
+  }
+}

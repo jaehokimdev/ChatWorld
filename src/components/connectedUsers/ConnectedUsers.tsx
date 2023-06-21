@@ -19,7 +19,7 @@ const ConnectedUsers = (props: {
 
 const UserList = styled.div`
   width: 250px;
-  height: 100vh;
+  height: 90vh;
   overflow-x: hidden;
   overflow-y: auto;
   background: rgba(77, 181, 255, 0.4);

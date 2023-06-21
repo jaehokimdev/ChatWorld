@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import io from "socket.io-client";
 import styled from "styled-components";
 import ConnectedUsers from "./connectedUsers/ConnectedUsers";
@@ -92,7 +93,7 @@ const Main = () => {
       )}
 
       {connected && (
-        <>
+        <Container>
           <ConnectedUsers connectedUsers={connectedUsers} />
           <Messages
             message={message}
@@ -101,12 +102,16 @@ const Main = () => {
             username={username}
             handleSendMessage={handleSendMessage}
           />
-        </>
+        </Container>
       )}
       <ToastContainer position="bottom-right" />
     </div>
   );
 };
+
+const Container = styled.div`
+  display: inline-flex;
+`;
 
 const UserForm = styled.form`
   height: 90vh;
