@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import styled from "styled-components";
-import Login from "./components/Login";
+import Main from "./components/Main";
 
 function App() {
   return (
     <Container>
       <Card>
-        <Login />
+        <Main />
       </Card>
     </Container>
   );
