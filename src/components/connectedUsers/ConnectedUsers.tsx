@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import User from "./User";
 import styled from "styled-components";
 
@@ -7,7 +7,7 @@ const ConnectedUsers = (props: {
 }) => {
   return (
     <UserList>
-      <h2>Connected Users</h2>
+      <h3>Connected Users</h3>
       <ul>
         {props.connectedUsers.map((user) => (
           <User key={user.id} user={user} />
@@ -30,7 +30,7 @@ const UserList = styled.div`
   flex-direction: column;
   align-items: center;
 
-  h2 {
+  h3 {
     margin-bottom: 40px;
     text-align: center;
   }

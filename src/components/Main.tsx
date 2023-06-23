@@ -111,6 +111,7 @@ const Main = () => {
 
 const Container = styled.div`
   display: inline-flex;
+  width: 100%;
 `;
 
 const UserForm = styled.form`

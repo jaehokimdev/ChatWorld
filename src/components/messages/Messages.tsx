@@ -1,6 +1,7 @@
 import React from "react";
 import Message from "./Message";
 import styled from "styled-components";
+import Button from "react-bootstrap/Button";
 
 const Messages = (props: {
   messages: { message: string; username: string }[];
@@ -33,7 +34,9 @@ const Messages = (props: {
           value={props.message}
           onChange={(e) => props.setMessage(e.target.value)}
         />
-        <button type="submit">Send</button>
+        <Button type="submit" variant="warning">
+          Send
+        </Button>
       </form>
     </Container>
   );
@@ -52,6 +55,7 @@ const Container = styled.div`
       color: #333;
       padding: 5px 10px;
       font-size: 1.1rem;
+      border-radius: 5%;
 
       &::placeholder {
         font-size: 0.95rem;
@@ -59,19 +63,12 @@ const Container = styled.div`
       }
     }
 
-    button {
-      font-family: $roboto;
+    Button {
       display: inline-block;
-      height: 100%;
+      height: 90%;
       width: 15%;
-      background: $primary-color;
-      color: white;
       font-size: 1.2rem;
       font-weight: 300;
-
-      &:hover {
-        background: $lighter-blue-color;
-      }
     }
   }
 `;
