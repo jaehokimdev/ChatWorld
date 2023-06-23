@@ -59,13 +59,13 @@ ul {
 }
 
 .sended {
-  background: $primary-color;
+  background: #5063c7;
   color: white;
   margin-left: auto;
 }
 
 .received {
-  background: $secondary-color;
+  background: #f9f9f9;
   color: #333;
 
   time {
