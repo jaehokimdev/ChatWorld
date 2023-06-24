@@ -21,7 +21,9 @@ const Main = () => {
   const socketClient = useRef<SocketIOClient.Socket>();
 
   useEffect(() => {
-    socketClient.current = io.connect("http://localhost:3002");
+    socketClient.current = io.connect(
+      "https://port-0-react-typescript-chat-app-server-koh2xlj9mwvdm.sel4.cloudtype.app"
+    );
 
     if (socketClient.current) {
       socketClient.current.on("username-taken", () => {
