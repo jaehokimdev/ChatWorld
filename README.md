@@ -4,7 +4,7 @@ This project is real-time chat application with socket.io.
 
 ## Homepage
 
-<a href="https://github.com/jaehokimdev/ChatWorld-server" target='_blank'>ChatWorld</a>
+<a href="http://chat.thejaehokim.com" target='_blank'>ChatWorld</a>
 
 ## Languages
 
@@ -18,7 +18,7 @@ This project is real-time chat application with socket.io.
 
 ## Server Code gitHub
 
-<a href="http://chat.thejaehokim.com" target='_blank'>ChatWorld-Server</a>
+<a href="https://github.com/jaehokimdev/ChatWorld-server" target='_blank'>ChatWorld-Server</a>
 
 ## How to run this program?
 
