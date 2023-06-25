@@ -4,7 +4,7 @@ This project is real-time chat application with socket.io.
 
 ## Homepage
 
-<a href="http://chat.thejaehokim.com" target='_blank'>ChatWorld</a>
+<a href="https://github.com/jaehokimdev/ChatWorld-server" target='_blank'>ChatWorld</a>
 
 ## Languages
 
@@ -15,6 +15,10 @@ This project is real-time chat application with socket.io.
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![STYLED-COMPONENTS](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+
+## Server Code gitHub
+
+<a href="http://chat.thejaehokim.com" target='_blank'>ChatWorld-Server</a>
 
 ## How to run this program?
 
